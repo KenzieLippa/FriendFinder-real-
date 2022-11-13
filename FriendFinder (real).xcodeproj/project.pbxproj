@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6850D14292104330004D863 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6850D13292104330004D863 /* SignIn.storyboard */; };
+		D6850D162921063B0004D863 /* ProfileDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6850D152921063B0004D863 /* ProfileDetails.storyboard */; };
 		D6E5CE6429207BA200F31DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E5CE6329207BA200F31DB4 /* AppDelegate.swift */; };
 		D6E5CE6629207BA200F31DB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E5CE6529207BA200F31DB4 /* SceneDelegate.swift */; };
 		D6E5CE6829207BA200F31DB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E5CE6729207BA200F31DB4 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D6850D13292104330004D863 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		D6850D152921063B0004D863 /* ProfileDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileDetails.storyboard; sourceTree = "<group>"; };
 		D6E5CE6029207BA200F31DB4 /* FriendFinder (real).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FriendFinder (real).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E5CE6329207BA200F31DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6E5CE6529207BA200F31DB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6850D122921040B0004D863 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				D6850D13292104330004D863 /* SignIn.storyboard */,
+				D6850D152921063B0004D863 /* ProfileDetails.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		D6E5CE5729207BA200F31DB4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		D6E5CE6229207BA200F31DB4 /* FriendFinder (real) */ = {
 			isa = PBXGroup;
 			children = (
+				D6850D122921040B0004D863 /* StoryBoards */,
 				D6E5CE6329207BA200F31DB4 /* AppDelegate.swift */,
 				D6E5CE6529207BA200F31DB4 /* SceneDelegate.swift */,
 				D6E5CE6729207BA200F31DB4 /* ViewController.swift */,
@@ -125,8 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6850D14292104330004D863 /* SignIn.storyboard in Resources */,
 				D6E5CE7029207BA400F31DB4 /* LaunchScreen.storyboard in Resources */,
 				D6E5CE6D29207BA400F31DB4 /* Assets.xcassets in Resources */,
+				D6850D162921063B0004D863 /* ProfileDetails.storyboard in Resources */,
 				D6E5CE6B29207BA200F31DB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
