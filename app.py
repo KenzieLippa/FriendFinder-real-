@@ -6,9 +6,7 @@ app = Flask(__name__)
 
 @app.route("/sms/", methods=['GET', 'POST'])
 def sms_reply():
-    console.log("hey bestie")
-    print("slayyyy")
-    body = request.values.get('Body').lowe()
+    body = request.values.get('Body').lower()
     resp = MessagingResponse()
     if body in range(5, 11):
         resp.message("We're glad you're doing okay today! :)")
